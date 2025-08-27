@@ -4,25 +4,28 @@ Projeto de exemplo utilizando React, Vite e TypeScript.
 
 ## Desenvolvimento
 
-1. Instale as dependências
+1. Copie o arquivo de variáveis de ambiente
+   ```
+   cp .env.example .env
+   ```
+
+2. Instale as dependências
    ```
    pnpm install
    ```
    (ou use npm/yarn)
 
-2. Inicie o servidor de desenvolvimento
+3. Inicie o servidor de desenvolvimento
    ```
    pnpm dev
    ```
 
-3. Build de produção
+4. Build de produção
    ```
    pnpm build
    ```
 
-4. Pré-visualização
+5. Pré-visualização
    ```
    pnpm preview
    ```
-
-As variáveis de ambiente estão em `.env.example`.
